@@ -21,10 +21,10 @@ let config = {
         default: 'arcade',
         arcade: {
             debug: true,
-            gravity: {
-                x: 0,
-                y: 1000
-            }
+            //gravity: {
+                //x: 0,
+                //y: 1000
+           //}
         }
     },
     scene: [ Load, Movement ]
